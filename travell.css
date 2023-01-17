@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background-image: url(barley.jpg.jpg);
+    background-position: centre;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.glass{
+    width: 930px;
+    height: 520px;
+    box-shadow: 0 0 8px rgb(6, 6, 6);
+}
+
+nav{
+    display: flex;
+    padding: 30p, 8%;
+
+}
+.logo{
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid gray;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
+h3{
+    color: rgb(40, 9, 9);
+    margin: 80px 110px -25px;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+h1{
+    color: rgb(52, 8, 8);
+    margin: 0 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    opacity: 0.9;
+}
+.icons {
+    display: flex;
+    margin-top: 260px;
+    margin-right: 250px;
+    text-align: right;
+    flex: 1;
+    list-style: none;
+    display: inline-block;
+
+}
